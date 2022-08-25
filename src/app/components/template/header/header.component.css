@@ -1,3 +1,15 @@
-.example-spacer {
+.spacer {
     flex: 1 1 auto;
-  }
+}
+
+.toolbar {
+  height: 5%;
+}
+
+.left-button {
+  margin: .6rem;
+}
+
+.text-header {
+  font-size: 1rem;
+}

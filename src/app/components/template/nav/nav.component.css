@@ -1,0 +1,44 @@
+.container {
+    height: 90%;
+}
+
+i {
+    padding: .6rem;
+}
+
+.mat-expansion-panel-header {
+    height: 36px;
+    padding: 0 5px;
+}
+
+:host /deep/ .mat-expansion-panel-body {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+}
+
+mat-icon {
+    font-size: 1.2rem;
+    padding-right: .6rem;
+}
+
+mat-panel-title {
+    font-size: .8rem;
+}
+
+/*.mat-list-base .mat-list-item .mat-list-item-content, .mat-list-base .mat-list-option .mat-list-item-content*/
+:host /deep/ .mat-list-base .mat-list-item .mat-list-item-content, .mat-list-base .mat-list-option {
+    font-size: .8rem;
+    height: 36px;
+    padding: 0px;
+}
+
+:host /deep/ .mat-list-base .mat-list-item {
+    height: 36px;
+}
+
+a i {
+    font-size: 1.2rem;
+    color: blue;
+}
